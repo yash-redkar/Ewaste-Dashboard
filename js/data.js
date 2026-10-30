@@ -199,18 +199,6 @@ const ASSIGNMENTS = [
     description: "National directory and regional assessment cataloging authorized e-waste dismantlers, licensed recovery networks, and capacity infrastructure across states.",
     tags: ["Facilities Directory", "Authorized Recyclers", "State Breakdown"],
     date: "August 2026"
-  },
-  {
-    id: "other-companies-2",
-    title: "National Directory of State-Wise E-Waste Facilities (Preserved Copy)",
-    category: "other",
-    categoryLabel: "Other Documents",
-    type: "PDF",
-    filePath: "files/State_Wise_E_Waste_Companies(1).pdf",
-    fileName: "State_Wise_E_Waste_Companies(1).pdf",
-    description: "Preserved secondary archival copy of the national state-wise authorized recyclers and recovery facilities directory.",
-    tags: ["Preserved Record", "Facilities Directory"],
-    date: "August 2026"
   }
 ];
 
