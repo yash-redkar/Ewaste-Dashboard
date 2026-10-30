@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Redkar | EWEM Assignment Portfolio (2026–27)</title>
+  
+  <!-- SEO & Academic Metadata -->
+  <meta name="description" content="Academic Assignment Submission Portal for E-Waste Management (EWEM) by Yash Redkar (24102B0011), Vidyalankar Institute of Technology, Mumbai.">
+  <meta name="author" content="Yash Redkar">
+  <meta name="theme-color" content="#133926">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- SheetJS for Client-Side Excel Spreadsheet Previews -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-link">
+        <div class="brand-avatar">YR</div>
+        <div class="brand-meta">
+          <span class="brand-title">Yash Redkar</span>
+          <span class="brand-subtitle">E-Waste Management Assignment Portal</span>
+        </div>
+      </a>
+
+      <nav class="site-nav">
+        <a href="#overview" class="nav-link">Overview</a>
+        <a href="#assignments" class="nav-link">Assignments</a>
+        <a href="#student-details" class="nav-link">Student Info</a>
+        <span class="nav-pill-roll">Roll No: 24102B0011</span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         Introduction / Hero Section
+         ========================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-card">
+          <div class="hero-pattern"></div>
+          
+          <div class="hero-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            Academic Year 2026–27 · Semester V
+          </div>
+
+          <h1 class="hero-title">My EWEM Assignment <span class="text-mint">Portfolio</span></h1>
+          <p class="hero-desc">
+            Welcome to my E-Waste Management academic submission portal. This website contains my assignments, reports, research work and additional academic activities.
+          </p>
+
+          <!-- Student Credentials Strip -->
+          <div id="student-details" class="student-badges-strip">
+            <div class="student-tag">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <span>Student: <b>Yash Redkar</b></span>
+            </div>
+            <div class="student-tag">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>Roll No: <b>24102B0011</b></span>
+            </div>
+            <div class="student-tag">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              <span>Class: <b>TE CMPN B</b></span>
+            </div>
+            <div class="student-tag">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <span><b>Vidyalankar Institute of Technology</b></span>
+            </div>
+            <div class="student-tag">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Academic Year: <b>2026–27</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Assignment Overview Section (Dynamic Stats Cards)
+         ========================================================================== -->
+    <section id="overview" class="overview-section">
+      <div class="container">
+        <div class="overview-grid">
+          
+          <div class="stat-card">
+            <div class="stat-icon total">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-number" id="statTotal">15</div>
+              <div class="stat-label">Total Assignments</div>
+              <div class="stat-sub">Complete Submissions</div>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon isa">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-number" id="statIsa">5</div>
+              <div class="stat-label">ISA</div>
+              <div class="stat-sub">In-Semester Assessment</div>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon ese">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-number" id="statEse">6</div>
+              <div class="stat-label">ESE</div>
+              <div class="stat-sub">End-Semester Evaluation</div>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon extra">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div class="stat-info">
+              <div class="stat-number" id="statExtra">2</div>
+              <div class="stat-label">Additional Activities</div>
+              <div class="stat-sub">Case Studies & Research</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Assignments & Filter Section
+         ========================================================================== -->
+    <section id="assignments" class="assignments-section">
+      <div class="container">
+        
+        <!-- Filter and Search Toolbar -->
+        <div class="filter-toolbar">
+          <div class="category-tabs" id="categoryTabs">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+
+          <div class="search-box-wrapper">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input 
+              type="text" 
+              id="searchInput" 
+              class="search-input" 
+              placeholder="Search assignments, topics..." 
+              autocomplete="off"
+            >
+            <button id="searchClearBtn" class="search-clear-btn" title="Clear search">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Assignment Cards Grid -->
+        <div class="cards-grid" id="cardsContainer">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Interactive Preview Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="previewModal" role="dialog" aria-modal="true" aria-labelledby="modalDocTitle">
+    <div class="modal-container">
+      
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <span id="modalDocCategory" class="category-tag isa">ISA</span>
+          <h2 id="modalDocTitle" class="modal-doc-title">Document Title</h2>
+        </div>
+
+        <div class="modal-header-actions">
+          <a id="modalNewTabBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn-icon-action" title="Open original file in new tab">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+
+          <a id="modalDownloadBtn" href="#" download class="btn-icon-action" title="Download file">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          </a>
+
+          <button id="modalFullscreenBtn" class="btn-icon-action" title="Toggle Fullscreen">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
+          </button>
+
+          <button id="modalCloseBtn" class="modal-close-btn" title="Close Preview (Esc)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-body" id="modalBody">
+        <!-- Dynamic iframe or Excel viewer rendered here -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-main-text">Designed &amp; Developed by Yash Redkar</p>
+        <p class="footer-sub-text">EWEM Academic Portfolio | 2026–27</p>
+      </div>
+      <div>
+        <p class="footer-credits">Department of Computer Engineering · Vidyalankar Institute of Technology, Mumbai</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
